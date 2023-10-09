@@ -11,3 +11,4 @@ the projects include:
     - RGB - red, green and blue.
     - HSL - hue, saturation and lightness
     - hexadecimal notation - represented by "#"
+- Registration Form that will take user input
