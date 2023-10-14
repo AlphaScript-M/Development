@@ -12,3 +12,5 @@ the projects include:
     - HSL - hue, saturation and lightness
     - hexadecimal notation - represented by "#"
 - **Registration Form** - that will take user input
+- **Survey Form** - This is a Simple Survey Form that takes user input. HTML and CSS are used.
+
