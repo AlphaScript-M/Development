@@ -11,4 +11,4 @@ the projects include:
     - RGB - red, green and blue.
     - HSL - hue, saturation and lightness
     - hexadecimal notation - represented by "#"
-- Survey Form - This is a Simple Survey Form that takes user input. HTML and CSS are used.
+- Survey Form - 
