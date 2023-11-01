@@ -35,3 +35,8 @@
     height: 300px;
     border-radius: ;
   }
+  .gallery::after {
+    content: "";
+    width: 350px;
+  }
+  
