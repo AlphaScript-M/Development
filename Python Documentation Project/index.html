@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Python Documentation</title>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav id="navbar">
+      <header>Python Documentation</header>
+      <ul>
+        <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+        <li><a class="nav-link" href="#Python_Basics">Python Basics</a></li>
+        <li><a class="nav-link" href="#Data_Types">Data Types</a></li>
+        <li><a class="nav-link" href="#Control_Structures">Control Structures</a></li>
+        <li><a class="nav-link" href="#Functions">Functions</a></li>
+        <li><a class="nav-link" href="#Modules_and_Packages">Modules and Packages</a></li>
+        <li><a class="nav-link" href="#Object_Oriented_Programming">Object Oriented Programming</a></li>
+        <li><a class="nav-link" href="#Exception_Handling">Exception Handling</a></li>
+        <li><a class="nav-link" href="#Reference">Reference</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main content -->
+    <main id="main-doc">
+      <!-- Section 1 -->
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <article>
+          <p>Python is a high-level, interpreted, and general-purpose programming language. Created by Guido van Rossum and first released in 1991, Python's design philosophy emphasizes code readability with its notable use of significant indentation.</p>
+          <ul>
+            <li>It is dynamically-typed and garbage-collected.</li>
+            <li>It supports multiple programming paradigms, including procedural, object-oriented, and functional programming.</li>
+          </ul>
+        </article>
+      </section>
+
+      <!-- Section 2 -->
+      <section class="main-section" id="Python_Basics">
+        <header>Python Basics</header>
+        <article>
+          <p>Before diving deeper, let's explore some basics:</p>
+          <ul>
+            <li>Python uses indentation to define blocks of code, unlike other languages that use braces or keywords.</li>
+            <li>Statements end with a newline, not a semicolon.</li>
+            <li>Python files have a ".py" extension.</li>
+          </ul>
+          <p>Example of a simple Python program:</p>
+          <code>print("Hello, World!")</code>
+        </article>
+      </section>
+
+      <!-- Section 3 -->
+      <section class="main-section" id="Data_Types">
+        <header>Data Types</header>
+        <article>
+          <p>Python supports several standard data types:</p>
+          <ul>
+            <li>int – Integers, like 42 or -13</li>
+            <li>float – Floating-point numbers, like 3.14</li>
+            <li>str – Strings, like "Hello World"</li>
+            <li>bool – Boolean values, either True or False</li>
+            <li>list – Ordered collections of items</li>
+            <li>dict – Key-value pairs (dictionaries)</li>
+          </ul>
+          <p>Here is an example of defining variables in Python:</p>
+          <code>
+            age = 25<br />
+            name = "John"<br />
+            is_student = True
+          </code>
+        </article>
+      </section>
+
+      <!-- Section 4 -->
+      <section class="main-section" id="Control_Structures">
+        <header>Control Structures</header>
+        <article>
+          <p>Python includes common control structures like conditional statements and loops:</p>
+          <ul>
+            <li>If-Else</li>
+            <li>For Loop</li>
+            <li>While Loop</li>
+          </ul>
+          <p>Example of an if-else statement:</p>
+          <code>
+            if age >= 18:<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;print("Adult")<br />
+            else:<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;print("Minor")
+          </code>
+        </article>
+      </section>
+
+      <!-- Section 5 -->
+      <section class="main-section" id="Functions">
+        <header>Functions</header>
+        <article>
+          <p>Functions allow code to be modular and reusable. A simple function looks like this:</p>
+          <code>
+            def greet(name):<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;print(f"Hello, {name}!")
+          </code>
+          <p>You can call this function using:</p>
+          <code>greet("Alice")</code>
+        </article>
+      </section>
+
+      <!-- Section 6 -->
+      <section class="main-section" id="Modules_and_Packages">
+        <header>Modules and Packages</header>
+        <article>
+          <p>Python has a rich ecosystem of libraries and modules. A module is a file containing Python definitions and statements. You can import modules using the <code>import</code> keyword.</p>
+          <code>import math</code>
+          <p>Example of using a module:</p>
+          <code>
+            import math<br />
+            print(math.sqrt(16))  # Outputs: 4.0
+          </code>
+        </article>
+      </section>
+
+      <!-- Section 7 -->
+      <section class="main-section" id="Object_Oriented_Programming">
+        <header>Object Oriented Programming</header>
+        <article>
+          <p>Python supports object-oriented programming (OOP). You can create classes and instantiate objects:</p>
+          <code>
+            class Person:<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;def __init__(self, name):<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self.name = name<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;def greet(self):<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(f"Hello, {self.name}!")
+          </code>
+          <p>Example of creating an object:</p>
+          <code>
+            p = Person("John")<br />
+            p.greet()  # Outputs: Hello, John!
+          </code>
+        </article>
+      </section>
+
+      <!-- Section 8 -->
+      <section class="main-section" id="Exception_Handling">
+        <header>Exception Handling</header>
+        <article>
+          <p>Python uses the <code>try</code> and <code>except</code> blocks to handle exceptions. Here's an example:</p>
+          <code>
+            try:<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;x = 1 / 0<br />
+            except ZeroDivisionError:<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;print("Cannot divide by zero")
+          </code>
+        </article>
+      </section>
+
+      <!-- Section 9 -->
+      <section class="main-section" id="Reference">
+        <header>Reference</header>
+        <article>
+          <ul>
+            <li>
+              All documentation is based on the official Python documentation. Visit <a href="https://docs.python.org/3/" target="_blank">Python Docs</a> for more details.
+            </li>
+          </ul>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
